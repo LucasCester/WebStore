@@ -1,0 +1,193 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
+        <script src="/static/JS/Carrinho.js"></script>
+      
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+        <link rel="stylesheet" type="text/css" href="/static/css/Index.css">
+        <link rel = "icon" href = "https://images.ctfassets.net/rporu91m20dc/7gxbBAewv7w0HzFxfQCQnV/a8bbe4b04da0ad128a24d265d0f2858d/DOOM_Rank_Icon02_Gold-03-03.png" type = "image/x-icon">
+
+        <title>Cester Store</title>
+    </head>
+
+    <body>
+      <picture>
+        <source srcset="https://i.pinimg.com/originals/72/a5/d3/72a5d373410a30ace13e49c24eb68e1b.jpg">
+        <img class="bg">
+      </picture>
+
+      <header>
+        <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+          <a class="navbar-brand branco scrollSuave" href="#inicio"><svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-joystick" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path d="M7.106 15.553L.553 12.276A1 1 0 0 1 0 11.382V9.471a1 1 0 0 1 .606-.89L6 6.269v1.088L1 9.5l5.658 2.83a3 3 0 0 0 2.684 0L15 9.5l-5-2.143V6.27l5.394 2.312a1 1 0 0 1 .606.89v1.911a1 1 0 0 1-.553.894l-6.553 3.277a2 2 0 0 1-1.788 0z"/>
+            <path fill-rule="evenodd" d="M7.5 9.5v-6h1v6h-1z"/>
+            <path d="M10 9.75c0 .414-.895.75-2 .75s-2-.336-2-.75S6.895 9 8 9s2 .336 2 .75zM10 2a2 2 0 1 1-4 0 2 2 0 0 1 4 0z"/>
+          </svg> Cester Store</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav mr-auto">
+              <a>&nbsp;&nbsp;</a>
+              <li class="nav-item active">
+                <a class="nav-link branco scrollSuave" href="#armas">Armas</a>
+              </li>
+              <a>&nbsp;&nbsp;</a>
+              <li class="nav-item active">
+                <a class="nav-link branco scrollSuave" href="#skins">Skins</a>
+              </li>
+              <a>&nbsp;&nbsp;</a>
+              <li class="nav-item active">
+                <a class="nav-link branco scrollSuave" href="#pu">Power Ups</a>
+              </li>
+            </ul>
+              
+              <a class="btn btn-outline-primary my-2 my-sm-0 fonte" type="button" href="/Login">Login</a>
+              &nbsp;&nbsp;
+              <a class="btn btn-outline-primary my-2 my-sm-0 fonte" type="button" href="/Cadastro">Cadastrar-se</a>
+              &nbsp;&nbsp;
+              <a class="btn btn-outline-success my-2 my-sm-0 fonte" type="button" href="/Carrinho"><svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-cart4" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" d="M0 2.5A.5.5 0 0 1 .5 2H2a.5.5 0 0 1 .485.379L2.89 4H14.5a.5.5 0 0 1 .485.621l-1.5 6A.5.5 0 0 1 13 11H4a.5.5 0 0 1-.485-.379L1.61 3H.5a.5.5 0 0 1-.5-.5zM3.14 5l.5 2H5V5H3.14zM6 5v2h2V5H6zm3 0v2h2V5H9zm3 0v2h1.36l.5-2H12zm1.11 3H12v2h.61l.5-2zM11 8H9v2h2V8zM8 8H6v2h2V8zM5 8H3.89l.5 2H5V8zm0 5a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0zm9-1a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0z"/>
+              </svg> Carrinho</a>
+
+          </div>
+        </nav>
+      </header>
+
+      <div class="fex-main" id="inicio">
+
+          <h1 class="Titulo"><u>Welcome Stranger to my WebStore</u></h1>
+          <p class="Titulo">Somente aqui você encontrará as armas, skins e power ups mais raras do universo<a id="armas"></a></p>
+
+        <div class="container">
+
+            <br>
+            <br>
+            <div class="subTitulo"><h1>Armas</h1></div>
+            <hr>
+            <br>
+
+            <div class="row row-cols-md-3">
+              <%for(var i = 0; i < 9; i++){%>
+                <form method="post" action="/adicionarCarrinho">
+                  <div class="col mb-3">
+                    <div class="card">
+                      <img src="/imagens/<%-produtos[i].imagens%>" class="card-img-top" width="300px" height="200px">
+                      <div class="text-muted codigoProduto">Código do produto: <%-produtos[i].idProduto%></div>
+                      <div class="middleArmas">
+                        <button type="submit" class="text btn btn-dark"><svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-cart-plus-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                          <path fill-rule="evenodd" d="M.5 1a.5.5 0 0 0 0 1h1.11l.401 1.607 1.498 7.985A.5.5 0 0 0 4 12h1a2 2 0 1 0 0 4 2 2 0 0 0 0-4h7a2 2 0 1 0 0 4 2 2 0 0 0 0-4h1a.5.5 0 0 0 .491-.408l1.5-8A.5.5 0 0 0 14.5 3H2.89l-.405-1.621A.5.5 0 0 0 2 1H.5zM4 14a1 1 0 1 1 2 0 1 1 0 0 1-2 0zm7 0a1 1 0 1 1 2 0 1 1 0 0 1-2 0zM9 5.5a.5.5 0 0 0-1 0V7H6.5a.5.5 0 0 0 0 1H8v1.5a.5.5 0 0 0 1 0V8h1.5a.5.5 0 0 0 0-1H9V5.5z"/>
+                        </svg> Adicionar ao Carrinho</button>
+                      </div>
+
+                      <div style="display: none;"><input type="number" name="idProduto" id="idProduto" value="<%-produtos[i].idProduto%>"></div>
+
+                      <div class="card-body">
+                        <h3 class="branco"><%-produtos[i].nome%> - $<%-produtos[i].valor%></h3>
+                        <%-produtos[i].descricao%>
+                        <div class="card-footer">
+                          <div class="form-group mx-sm-3 mb-2">
+                            <br>
+                            <input type="number" class="form-control" id="quantidade" name="quantidade" placeholder="Quantidade" min="1" required>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </form>
+              <%}%>
+              <a id="skins"></a>
+              <br>      
+            </div>
+
+              <br>
+              <br>
+              <div class="subTitulo"><h1>Skins</h1></div>
+              <hr>
+              <br>
+
+              <div class="row row-cols-1 row-cols-md-3">
+                <%for(var i = 9; i < 15; i++){%>
+                    <form method="post" action="/adicionarCarrinho">
+                          <div class="col mb-3">
+                            <div class="card">
+                              <img src="/imagens/<%-produtos[i].imagens%>" class="card-img-top" width="270px" height="550px">
+                              <div class="text-muted codigoProduto">Código do produto: <%-produtos[i].idProduto%></div>
+                              <div class="middleSkins">
+                                <button type="submit" class="text btn btn-dark"><svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-cart-plus-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                  <path fill-rule="evenodd" d="M.5 1a.5.5 0 0 0 0 1h1.11l.401 1.607 1.498 7.985A.5.5 0 0 0 4 12h1a2 2 0 1 0 0 4 2 2 0 0 0 0-4h7a2 2 0 1 0 0 4 2 2 0 0 0 0-4h1a.5.5 0 0 0 .491-.408l1.5-8A.5.5 0 0 0 14.5 3H2.89l-.405-1.621A.5.5 0 0 0 2 1H.5zM4 14a1 1 0 1 1 2 0 1 1 0 0 1-2 0zm7 0a1 1 0 1 1 2 0 1 1 0 0 1-2 0zM9 5.5a.5.5 0 0 0-1 0V7H6.5a.5.5 0 0 0 0 1H8v1.5a.5.5 0 0 0 1 0V8h1.5a.5.5 0 0 0 0-1H9V5.5z"/>
+                                </svg> Adicionar ao Carrinho</button>
+                              </div>
+
+                              <div style="display: none;"><input type="number" name="idProduto" id="idProduto" value="<%-produtos[i].idProduto%>"></div>
+
+                              <div class="card-body">
+                                <h3 class="branco"><%-produtos[i].nome%> - $<%-produtos[i].valor%></h3>
+                                <%-produtos[i].descricao%>
+                                <div class="card-footer">
+                                  <div class="form-group mx-sm-3 mb-2">
+                                    <br>
+                                    <input type="number" class="form-control" id="quantidade" name="quantidade" min="1" placeholder="Quantidade" required>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                    </form>
+                <%}%>
+                <a id="pu"></a>
+                <br>
+              </div>
+
+              <br>
+              <br>
+              <div class="subTitulo"><h1>Power Ups</h1></div>
+              <hr>
+              <br>
+
+              <div class="row row-cols-1 row-cols-md-3">
+                <%for(var i = 15; i < 18; i++){%>
+                  <form method="post" action="/adicionarCarrinho">
+                        <div class="col mb-3">
+                          <div class="card">
+                            <img src="/imagens/<%-produtos[i].imagens%>" class="card-img-top" width="300px" height="300px">
+                            <div class="text-muted codigoProduto">Código do produto: <%-produtos[i].idProduto%></div>
+                            <div class="middlePowers">
+                              <button type="submit" class="text btn btn-dark"><svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-cart-plus-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" d="M.5 1a.5.5 0 0 0 0 1h1.11l.401 1.607 1.498 7.985A.5.5 0 0 0 4 12h1a2 2 0 1 0 0 4 2 2 0 0 0 0-4h7a2 2 0 1 0 0 4 2 2 0 0 0 0-4h1a.5.5 0 0 0 .491-.408l1.5-8A.5.5 0 0 0 14.5 3H2.89l-.405-1.621A.5.5 0 0 0 2 1H.5zM4 14a1 1 0 1 1 2 0 1 1 0 0 1-2 0zm7 0a1 1 0 1 1 2 0 1 1 0 0 1-2 0zM9 5.5a.5.5 0 0 0-1 0V7H6.5a.5.5 0 0 0 0 1H8v1.5a.5.5 0 0 0 1 0V8h1.5a.5.5 0 0 0 0-1H9V5.5z"/>
+                              </svg> Adicionar ao Carrinho</button>
+                            </div>
+
+                            <div style="display: none;"><input type="number" name="idProduto" id="idProduto" value="<%-produtos[i].idProduto%>"></div>
+
+                            <div class="card-body">
+                              <h3 class="branco"><%-produtos[i].nome%> - $<%-produtos[i].valor%></h3>
+                              <%-produtos[i].descricao%>
+                              <div class="card-footer">
+                                <div class="form-group mx-sm-3 mb-2">
+                                  <br>
+                                  <input type="number" class="form-control" id="quantidade" name="quantidade" min="1" placeholder="Quantidade" required>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                  </form>
+                <%}%>               
+            </div>
+            <footer>
+              <br>
+              <br>
+              <hr>
+              <p class="branco subTituloFinal">© Cester Company 2020-2020</p>
+            </footer>
+        </div> 
+
+      </div>
+
+    </body>
+</html>
