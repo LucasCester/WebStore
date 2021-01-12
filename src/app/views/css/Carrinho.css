@@ -1,0 +1,64 @@
+body{
+    padding-top: 100px;
+    width: 98%;
+    padding-left: 100px;
+}
+
+hr{
+    color:white;
+}
+
+@font-face{
+    font-family: ds3;
+    src: url("/static/Midias/Fontes/Fonte.otf");
+}
+  
+.branco{
+    font-family: ds3;
+}
+  
+.fonte{
+    font-family: ds3;
+}
+
+.card {
+    border: 5px solid white;
+    height: auto;
+}
+
+.gridLucas{
+    display: grid;
+    grid-template-columns: 10fr;
+    column-gap: 25px;
+    row-gap: 25px;
+}
+
+.card-img-top{
+    max-width: 270px;
+    max-height: 450px;
+}
+
+.cardCarrinho{
+    height: 200px;
+    margin-bottom: 20px;
+    width: 500px;
+    position: fixed;
+    z-index: 20;
+    left: 60%;
+    bottom: 35%;
+}
+
+.cardProduto{
+    margin-bottom: 20px;
+    width: 500px;
+}
+
+.mundo{
+    display: flex;
+}
+
+.codigoProduto{
+    margin-left: 20px;
+    margin-top: 20px;
+    font-size: 12px;
+  }

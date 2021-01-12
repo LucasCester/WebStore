@@ -1,0 +1,147 @@
+img.bg {
+  min-height: 100%;
+  min-width: 100%;
+  z-index: -1;
+  width: 100%;
+  height: auto;
+  position: fixed;
+  top: 0;
+  left: 0;
+  pointer-events: none;
+}
+
+.fex-main {
+  background: rgba(0, 0, 0, 0.637);
+  padding-top: 130px;
+  padding-bottom: 10px;
+}
+
+@font-face{
+  font-family: ds3;
+  src: url(/static/Midias/Fontes/Fonte.otf);
+}
+
+.branco{
+  color: white;
+  font-family: ds3;
+}
+
+.fonte{
+  font-family: ds3;
+}
+
+.middleArmas {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.middleSkins {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.middlePowers {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.col-sm-4:hover .middleArmas{
+  visibility: visible;
+  opacity: 1;
+}
+
+.col-sm-4:hover .middleSkins{
+  visibility: visible;
+  opacity: 1;
+}
+
+.col-sm-4:hover .middlePowers{
+  visibility: visible;
+  opacity: 1;
+}
+
+.image1:hover{
+  opacity: 0.6;
+}
+
+.middleArmas:hover{
+  opacity: 1;
+}
+
+.middleSkins:hover{
+  opacity: 1;
+}
+
+.middlePowers:hover{
+  opacity: 1;
+}
+
+.text {
+  background-color: #333;
+  color: white;
+  font-size: 12px;
+  padding: 16px 32px;
+}
+
+.subTitulo{
+  color: white;
+  font-family: ds3;
+  padding-left: 125px;
+}
+
+hr{
+  color:white;
+  background-color:white;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+.subTituloFinal{
+  color: white;
+  font-family: ds3;
+  padding-left: 30px;
+}
+
+.Titulo{
+  color: white;
+  font-family: ds3;
+  text-align: center;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.card {
+  background-color: rgba(51, 51, 51, 0.589);
+}
+
+.card-footer {
+  padding: .75rem 1.25rem;
+  background-color: rgba(0,0,0,.03);
+  border-top: 1px solid white;
+}
+
+.codigoProduto{
+  margin-left: 20px;
+  margin-top: 20px;
+  font-size: 12px;
+}
